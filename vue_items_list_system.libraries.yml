@@ -1,0 +1,31 @@
+
+polyfill:
+  version: 7.12.1
+  js:
+    https://cdn.polyfill.io/v3/polyfill.min.js: { type: external, minified: true }
+
+vue:
+  version: 3.4.31
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.31/vue.min.js: { type: external, minified: true }
+  dependencies:
+    - projectname_system/polyfill
+
+vue-router:
+  version: 4.4.0
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vue-router/4.4.0/vue-router.min.js: { type: external, minified: true }
+  dependencies:
+    - projectname_system/vue
+
+vuex:
+  version: 4.1.0
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vuex/4.1.0/vuex.min.js: { type: external, minified: true }
+  dependencies:
+    - projectname_system/vue
+
+axios:
+  version: 1.7.2
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js: { type: external, minified: true }

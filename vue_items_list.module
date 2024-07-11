@@ -1,0 +1,7 @@
+
+/**
+ * Implements hook_preprocess_paragraph() for Type paragraph.
+ */
+function view_items_list_module_preprocess_paragraph__type(&$variables) {
+  $variables[‘#attached’][‘library’][] = ‘vue_items_list_module/vue-items-list-module-app’;
+}

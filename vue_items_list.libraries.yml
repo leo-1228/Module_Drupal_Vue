@@ -1,0 +1,8 @@
+
+vue-items-list-module-app:
+  version: 1.0
+  js:
+    vue-items-list-module-app/dist/vue_items_list_module_app.umd.min.js: { minified: true }
+  dependencies:
+    - projectname_system/vue
+    - projectname_system/axios
